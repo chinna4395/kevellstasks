@@ -49,6 +49,12 @@ export class AppComponent implements OnInit{
       this.dataSource.sort = this.sort;
       this.dataSource.paginator = this.paginator;
       return this.ELEMENT_DATA;
+    },error=>{
+      console.log(error);
+      
+    },()=>{
+      console.log('HTTP Rest Api Completed');
+      
     })
   }
 
