@@ -11,6 +11,7 @@ import {MatTableModule} from '@angular/material/table';
 import { HttpClientModule } from "@angular/common/http";
 import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatTableModule,
     HttpClientModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

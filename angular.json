@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "kevellstasks"
+  "defaultProject": "kevellstasks",
+  "cli": {
+    "analytics": false
+  }
 }
